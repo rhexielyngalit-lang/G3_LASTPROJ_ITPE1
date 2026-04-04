@@ -167,15 +167,12 @@ nav a {
     width: fit-content;
     align-items: center;
 }
-.img-top, .img-bottom, .img-y2k {
-    display: grid;
-    grid-template-columns: repeat(6, 220px);
-    align-items: center;
-    place-items: center;
+.img-top,
+.img-bottom {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    margin-top: 20px;
-
 }
 .nav-cart-icon {
     display: inline-flex;
