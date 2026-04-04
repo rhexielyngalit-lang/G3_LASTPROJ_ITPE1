@@ -749,8 +749,6 @@ contact p {
     font-size: 14px;
     margin: 6px 0;
 }
-
-/* List */
 .pref ul {
     margin: 10px 0 10px 20px;
 }
@@ -830,7 +828,7 @@ contact p {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* goes to next line on small screen */
+    flex-wrap: wrap; 
 }
 
 .sale-img img {
@@ -868,7 +866,7 @@ contact p {
     margin-bottom: 5px;
 }
 
-/* Answer */
+
 .faq-item p {
     font-size: 14px;
 }
@@ -1110,11 +1108,10 @@ section {
     padding: 60px 20px;
 }
 .footer {
-    margin-top: 60px;
-    text-align: center;
+    width: 100%;        
+    text-align: center;      
+    margin-top: 40px;
     padding: 20px 0;
-
-    background: transparent;
 
     font-family: "Didot", serif;
     font-size: 14px;
@@ -1131,4 +1128,9 @@ section {
     height: 1px;
     opacity: 0.3;
     margin: 0 auto 10px auto;
+}
+.center-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
