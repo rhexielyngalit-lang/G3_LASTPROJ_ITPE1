@@ -22,8 +22,9 @@ section {
     text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #6C5C51;
+     font-family: "Georgia", serif;
 }
 .navbar {
     display: flex;
