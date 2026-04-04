@@ -1143,6 +1143,5 @@ section {
 .center-btn .btn {
     width: auto;       
     max-width: 200px;   
-    padding: 8px 18px;  
     flex-shrink: 0;  
 }
