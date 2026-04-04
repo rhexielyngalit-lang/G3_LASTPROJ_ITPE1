@@ -1134,7 +1134,15 @@ section {
     margin: 0 auto 10px auto;
 }
 .center-btn {
+    margin-top: 20px;
+    text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+}
+
+.center-btn .btn {
+    width: auto;       
+    max-width: 200px;   
+    padding: 8px 18px;  
+    flex-shrink: 0;  
 }
