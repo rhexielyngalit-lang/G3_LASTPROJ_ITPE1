@@ -168,12 +168,7 @@ nav a {
     align-items: center;
 }
 .img-top,
-.img-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-}
+.img-bottom, 
 .img-y2k {
     display: flex;
     flex-wrap: wrap;
