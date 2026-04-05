@@ -292,7 +292,7 @@ nav a {
     pointer-events: auto;
 }
 .sidebar a {
-    padding: 5px 30px;
+    padding-left: 40px;
     display: block;
 }
 .side-menu {
@@ -324,7 +324,7 @@ nav a {
     transform: translateX(0);
 }
 .out {
-    margin-top: 100px;
+    margin-top: auto;
     color: #47413e;
 }
 .order {
