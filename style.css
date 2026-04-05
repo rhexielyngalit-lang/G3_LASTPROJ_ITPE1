@@ -93,8 +93,10 @@ nav a {
 }
 
 .brown {
-    background: #6C5C51;
-    color: white;
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    padding: 8px 14px;
 }
 
 .center-btn {
