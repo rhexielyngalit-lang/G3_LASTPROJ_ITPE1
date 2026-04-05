@@ -240,15 +240,6 @@ nav a {
     box-shadow: none;
 }
 
-/* Container for buttons in product cards */
-.product-actions {
-    display: flex;
-    justify-content: center;
-    gap: 10px;                          /* spacing between Add & Buy buttons */
-    margin-top: 10px;
-    flex-wrap: wrap;                     /* wraps buttons on smaller screens */
-}
-
 .fav-btn {
     border: 1px solid #983757;
     background: #fff;
@@ -850,7 +841,7 @@ nav a {
 
 .product-actions {
     margin-top: 10px;
-}
+} 
 .faq {
     padding: 40px 20px;
     text-align: center;
@@ -1158,4 +1149,27 @@ section {
     width: auto;
     max-width: fit-content;
     white-space: nowrap;
+}
+.product-actions {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center;     /* center horizontally */
+    gap: 10px;               /* space between top row and Buy Now */
+}
+
+.product-actions .cart-btn,
+.product-actions .fav-btn {
+    display: inline-flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.product-actions .cart-btn {
+    margin-right: 8px; /* space between Add to Cart and Heart */
+}
+
+/* Use a wrapper trick with flex for first row without changing HTML */
+.product-actions > *:first-child {
+    display: flex;
+    gap: 10px;            /* space between Add to Cart and Heart */
 }
