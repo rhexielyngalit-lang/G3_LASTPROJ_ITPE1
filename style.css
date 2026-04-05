@@ -209,26 +209,24 @@ nav a {
     box-shadow: 0 12px 25px rgba(0,0,0,0.18);
 }
 
-/* Product Action Buttons */
 .cart-btn,
 .buy-now {
-    display: inline-flex;               /* centers text */
+    display: inline-flex;         
     align-items: center;
     justify-content: center;
-    padding: 8px 18px;                  /* more space for text */
+    padding: 8px 18px;       
     border: none;
-    border-radius: 15px;                /* pill shape */
+    border-radius: 15px;          
     background: #6C5C51;
     color: white;
     font-family: "Poppins", Arial, sans-serif;
     font-size: 14px;
     cursor: pointer;
-    white-space: nowrap;                /* prevents cutting text */
-    min-width: 100px;                   /* ensures buttons are wide enough */
+    white-space: nowrap;     
+    min-width: 100px;                 
     transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect */
 .cart-btn:hover,
 .buy-now:hover {
     background: #5a4a40;
@@ -236,7 +234,6 @@ nav a {
     box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 }
 
-/* Active / Click effect */
 .cart-btn:active,
 .buy-now:active {
     transform: translateY(1px) scale(0.98);
