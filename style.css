@@ -656,13 +656,6 @@ nav a {
     padding: 40px;
 }
 
-.img-top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-}
-
 .item img {
     width: 100%;
 }
@@ -858,9 +851,9 @@ nav a {
     display: flex;
     justify-content: center;
 }
-
 .sale-img .desc {
-    width: 200px;
+    width: 100px;
+    max-width: 200px;
     text-align: center;
 }
 .sale-items {
