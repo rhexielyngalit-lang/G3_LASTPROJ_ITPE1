@@ -207,15 +207,6 @@ nav a {
     max-width: 1200px;
     margin: 0 auto;
 }
-.img-top,
-.img-bottom {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-}
 .desc img {
     width: 220px;
     height: 280px;
@@ -602,9 +593,10 @@ nav a {
 
 .item {
     text-align: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    display: flex;
+    width: 200px;
 }
 .item p {
     font-family: "Poppins", sans-serif;
@@ -643,12 +635,6 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-}
-
-
-.item {
-    text-align: center;
-    width: 200px;
 }
 
 .item img {
