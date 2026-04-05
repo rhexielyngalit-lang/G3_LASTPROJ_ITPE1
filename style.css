@@ -568,7 +568,11 @@ nav a {
     align-items: center;
     text-align: center;
 
-    width: 200px;
+    width: 200px;}
+
+.desc p:first-of-type {
+    min-height: 40px; /* forces equal title height */
+
 }
 .desc p {
     font-family: "Poppins", sans-serif;
