@@ -176,6 +176,10 @@ nav a {
     display: inline-block;
     margin-top: 20px;
 }
+.y2k-top, 
+.y2k-top * {
+    font-family: "Poppins", Arial, sans-serif !important;
+}
 
 .shop .btn {
     margin-top: 20px;
