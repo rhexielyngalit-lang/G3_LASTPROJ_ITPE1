@@ -126,7 +126,10 @@ nav a {
     font-size: 3rem;
     color: #6C5C51;
     line-height: 100%;
-    
+
+}
+.tops {
+    text-align: center;
 }
 .tops p{
     font-family: "Poppins", Arial, sans-serif;
