@@ -1157,10 +1157,13 @@ section {
     margin: 0 auto 10px auto;
 
 }
-
+.back-btn:hover {
+  transform: none;
+  box-shadow: none; /* optional */
+}
 .center-btn .back-btn {
-    display: inline-block;
-    width: auto;
-    max-width: fit-content;
+  display: inline-block;
+  width: auto;
+  flex: 0 0 auto;
 }
 
