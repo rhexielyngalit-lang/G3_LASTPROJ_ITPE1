@@ -107,7 +107,7 @@ nav a {
     text-align: center;
     display: flex;
     justify-content: center;
-      margin-top: 40px;
+      margin-top: 20px 0;
 }
 .container {
     max-width: 1200px;
@@ -1150,4 +1150,9 @@ section {
   width: auto;
   flex: 0 0 auto;
 }
-
+.center-btn .btn.brown {
+    display: inline-block;
+    width: auto;
+    max-width: fit-content;
+    white-space: nowrap;
+}
