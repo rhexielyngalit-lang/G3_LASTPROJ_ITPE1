@@ -469,9 +469,9 @@ nav a {
     padding: 8px 14px;
     border-radius: 6px;
     text-decoration: none;
-
-    display: inline-block; 
-    width: auto;          
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     white-space: nowrap;
 }
 
@@ -1147,7 +1147,9 @@ section {
     justify-content: center;
 }
 
-.center-btn .btn {
-    width: auto; 
-    max-width: 200px;
+.center-btn .back-btn {
+    display: inline-block;
+    width: auto;
+    max-width: fit-content;
 }
+
