@@ -206,39 +206,47 @@ nav a {
     box-shadow: 0 12px 25px rgba(0,0,0,0.18);
 }
 
-.cart-btn {
-    margin: 8px 4px 0 4px;
-    padding: 6px 10px;
+/* Product Action Buttons */
+.cart-btn,
+.buy-now {
+    display: inline-flex;               /* centers text */
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;                  /* more space for text */
     border: none;
-    border-radius: 15px;
+    border-radius: 15px;                /* pill shape */
     background: #6C5C51;
     color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 14px;
     cursor: pointer;
-    font-size: 13px;
-    
+    white-space: nowrap;                /* prevents cutting text */
+    min-width: 100px;                   /* ensures buttons are wide enough */
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cart-btn:hover {
+/* Hover effect */
+.cart-btn:hover,
+.buy-now:hover {
     background: #5a4a40;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 }
 
+/* Active / Click effect */
+.cart-btn:active,
+.buy-now:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: none;
+}
+
+/* Container for buttons in product cards */
 .product-actions {
     display: flex;
     justify-content: center;
-    gap: 5px;
-    margin-top: 5px;
-}
-
-.product-actions .top-actions {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.product-actions .buy-now {
-    grid-column: 1 / -1;
-    width: fit-content;
-    justify-self: center;
+    gap: 10px;                          /* spacing between Add & Buy buttons */
+    margin-top: 10px;
+    flex-wrap: wrap;                     /* wraps buttons on smaller screens */
 }
 
 .fav-btn {
