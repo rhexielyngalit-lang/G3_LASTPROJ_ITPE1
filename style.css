@@ -106,7 +106,8 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px; 
+    gap: 10px;
+    flex-wrap: wrap;
     
 }
 .container {
@@ -454,19 +455,19 @@ nav a {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2),
                 0 0 10px rgba(108,92,81,0.6);
 }
+.btn,
 .back-btn {
-    background-color: #6C5C51;
-    color: white;
-    padding: 8px 14px;
-    border-radius: 6px;
-    text-decoration: none;
-    display: inline-block;
+    display: inline-flex;        
     align-items: center;
     justify-content: center;
-    white-space: nowrap;
-    width: fit-content;
-    max-width: fit-content;
-    padding: 8px 14px;
+    padding: 8px 16px;
+    white-space: nowrap;         
+    min-width: 80px;              
+    max-width: 100%;           
+    box-sizing: border-box;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .btn:active {
