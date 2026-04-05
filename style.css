@@ -323,7 +323,7 @@ nav a {
 #menu-toggle:checked + .navbar + .overlay + .side-menu {
     transform: translateX(0);
 }
-.out {
+.out a {
     margin-top: 100px;
     color: #47413e;
     padding-left: 15px;
