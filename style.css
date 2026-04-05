@@ -109,7 +109,11 @@ nav a {
     justify-content: center;
       margin-top: 40px;
 }
-
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 .shop {
     height: 60vh;
     width: 100%;
@@ -203,6 +207,12 @@ nav a {
     max-width: 1200px;
     margin: 0 auto;
 }
+.img-top,
+.img-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 .desc img {
     width: 220px;
