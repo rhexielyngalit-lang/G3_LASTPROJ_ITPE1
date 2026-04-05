@@ -223,12 +223,14 @@ nav a {
 
 .cart-btn {
     margin: 8px 4px 0 4px;
-    padding: 6px 12px;
+    padding: 6px 10px;
     border: none;
     border-radius: 15px;
     background: #6C5C51;
     color: white;
     cursor: pointer;
+    font-size: 13px;
+    
 }
 
 .cart-btn:hover {
@@ -236,10 +238,10 @@ nav a {
 }
 
 .product-actions {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 0.4rem;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
     margin-top: 10px;
 }
 
@@ -260,9 +262,9 @@ nav a {
     background: #fff;
     color: #983757;
     border-radius: 12px;
-    width: 38px;
-    height: 38px;
-    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
     transition: transform 0.15s ease, background 0.2s ease;
