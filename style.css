@@ -460,6 +460,17 @@ nav a {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2),
                 0 0 10px rgba(108,92,81,0.6);
 }
+.back-btn {
+    background-color: #6C5C51;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+
+    display: inline-block; 
+    width: auto;          
+    white-space: nowrap;
+}
 
 .btn:active {
     transform: translateY(-2px) scale(0.98);
