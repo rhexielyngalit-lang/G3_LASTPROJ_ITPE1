@@ -129,56 +129,15 @@ nav a {
     line-height: 3;
     font-style: italic;
 }
-
-
 .shop h1 {
     font-family: "Didot", serif;
     font-size: 3rem;
     color: #6C5C51;
     line-height: 100%;
-
 }
 .topshop *,
 .bottomshop * {
     font-family: "Poppins", Arial, sans-serif;
-}
-.tops {
-    text-align: center;
-}
-.tops p{
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    line-height: 3;
-      font-size: 20px;
-}
-.tops h2 {
-    
-    font-family: "Didot", serif;
-    font-size: 2.5rem;
-    color: #6C5C51;
-}
-.up {
-    text-align: center;
-    margin-top: 50px;
-}
-.bottoms {
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.bottoms p {
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    line-height: 3;
-    font-size: 20px;
-}
-.bottoms h2 {
-    font-family: "Didot", serif;
-    font-size: 2.5rem;
-    color: #6C5C51;
 }
 .y2k {
     text-align: center;
