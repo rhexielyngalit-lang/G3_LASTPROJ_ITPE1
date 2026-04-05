@@ -167,10 +167,10 @@ nav a {
 .y2k {
     text-align: center;
 }
-.y2k .btn {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
+
+.y2k a.btn {
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .shop .btn {
