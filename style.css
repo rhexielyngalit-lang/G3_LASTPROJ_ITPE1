@@ -93,12 +93,15 @@ nav a {
 }
 
 .brown {
-    display: inline-block !important;
-    width: auto !important;
+    background: #6C5C51;
+    color: white;
+    display: inline-block;
+    width: auto;
     white-space: nowrap;
     padding: 8px 14px;
 }
-a {
+.menu-content a,
+.order a {
     display: block;
     width: 100%;
 }
@@ -452,11 +455,6 @@ a {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.brown {
-    background: #6C5C51;
-    color: white;
 }
 
 .btn:hover {
