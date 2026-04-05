@@ -17,11 +17,6 @@ body {
     min-height: 100vh; 
 }
 
-section {
-    padding: 50px 20px;
-    text-align: center;
-}
-
 h1, h2, h3 {
     color: #6C5C51;
      font-family: "Georgia", serif;
@@ -252,10 +247,6 @@ nav a {
     transform: scale(1.08);
 }
 
-#menu-toggle {
-    display: none;
-}
-
 .overlay {
     position: fixed;
     top: 0;
@@ -294,14 +285,34 @@ nav a {
     z-index: 1000;
     transform: translateX(-100%);
     transition: transform 0.4s ease;
-    padding: 30px 25px;
-}
-.menu-content {
-    display: block;
-    margin-top: 20px;
-    padding: 20px 25px; 
+    padding: 30px 25px; /* keeps space inside the menu */
+    display: flex;
+    flex-direction: column;
 }
 
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menu-content a {
+    display: block;
+    text-decoration: none;
+    color: #47413e;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    margin: 10px 0;   
+    transition: all 0.3s ease;
+    text-align: left;   
+}
+
+.menu-content a:hover {
+    color: #6C5C51;
+    padding-left: 20px; 
+}
 
 #menu-toggle:checked + .navbar + .overlay + .side-menu {
     transform: translateX(0);
@@ -342,20 +353,6 @@ nav a {
     font-size: 20px;
     letter-spacing: 2px;
     color: #6C5C51;
-}
-
-.menu-content a {
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #47413e;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.menu-content a:hover {
-    color: #6C5C51;
-    padding-left: 8px;
 }
 
 .menu-content a.orders-link {
@@ -493,13 +490,9 @@ nav a {
     font-family: "Didot", serif;
     font-size: 1rem;
     color: #6C5C51;
-
-
-}
-.contactinfo{
-   gap: 30px;
-   margin: 20px;
-   padding: 30px;
+    gap: 30px;
+    margin: 20px;
+    padding: 30px;
 }
 .contact {
     gap: 10px;
