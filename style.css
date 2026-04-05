@@ -150,6 +150,7 @@ nav a {
 }
 .up {
     text-align: center;
+    margin-top: 50px;
 }
 .bottoms {
     flex: 1;
