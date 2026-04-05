@@ -475,6 +475,7 @@ nav a {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+    width: auto;
 }
 
 .btn:active {
