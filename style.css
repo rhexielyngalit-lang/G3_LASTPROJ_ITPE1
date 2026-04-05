@@ -943,11 +943,14 @@ nav a {
     margin: 8px 0;
     color: #47413e;
 }
-
 .center {
-    text-align: center;
+    font-family: "Didot", serif;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+     top: 50%;
+    transform: translate(-50%, -50%);
 }
-
 @media (max-width: 768px) {
     .size-guide h1 {
         font-size: 2rem;
@@ -1134,7 +1137,7 @@ section {
 }
 .back-btn:hover {
   transform: none;
-  box-shadow: none; /* optional */
+  box-shadow: none; 
 }
 .center-btn .back-btn {
   display: inline-block;
