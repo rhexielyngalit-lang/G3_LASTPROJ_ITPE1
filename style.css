@@ -164,6 +164,14 @@ nav a {
     font-size: 2.5rem;
     color: #6C5C51;
 }
+.y2k {
+    text-align: center;
+}
+.y2k .btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
 
 .shop .btn {
     margin-top: 20px;
