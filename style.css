@@ -203,6 +203,8 @@ nav a {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 @media (max-width: 1200px) {
     .img-top,
@@ -224,7 +226,7 @@ nav a {
     width: 100%;
     height: 220px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
     
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 
@@ -232,13 +234,13 @@ nav a {
 
 @media (max-width: 1200px) {
     .img-top, .img-bottom {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 }
 
 @media (max-width: 768px) {
     .img-top, .img-bottom {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     }
 }
 
@@ -265,10 +267,9 @@ nav a {
 
 .product-actions {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
-    margin-top: 10px;
+    gap: 5px;
+    margin-top: 5px;
 }
 
 .product-actions .top-actions {
